@@ -1,0 +1,13 @@
+@function z-index($name) {
+    @if map-has-key($z-index-map, $name) {
+      @return map-get($z-index-map, $name);
+    } @else {
+      @return null;
+    }
+  }
+
+$z-index-map: (
+    "test": 1,
+    "navigation": 5,
+    "test2": 6
+)

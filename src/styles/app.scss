@@ -1,0 +1,23 @@
+@import 'normalize.css';
+
+.overflow-dot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.light-gray {
+  color: #A0A4A8;
+}
+
+.file-name {
+  font-size: 16px;
+}
+
+:root{
+  --primary-blue: #174094;
+  --secondary-blue: #47b0f5;
+  --tertiary-blue: #72b8db;
+  --quinary-blue: #398CD0;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "travelogue-website-vue3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0",
+    "register-service-worker": "^1.7.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-e2e-cypress": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-pwa": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "~5.0.8",
+    "@vue/cli-plugin-vuex": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "^2.4.5",
+    "@vue/vue3-jest": "^27.0.0",
+    "axios": "^1.6.7",
+    "babel-jest": "^27.5.1",
+    "cypress": "^9.7.0",
+    "date-fns": "^3.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^8.7.1",
+    "jest": "^27.5.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.72.0",
+    "sass-loader": "^12.6.0",
+    "style-resources-loader": "^1.4.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "~4.9.5",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
+  }
+}
